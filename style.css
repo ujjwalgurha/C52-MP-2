@@ -1,0 +1,68 @@
+
+h1{
+    color:aquamarine;
+    text-align: center;
+    padding-left: 30px;
+}
+
+
+.header *{border: solid;
+
+}
+    
+.header{
+    background-color: #0004ff;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+
+p.h2{
+    text-align:center;
+}
+
+.bb{
+    background-color:#00ff2f;
+}
+ 
+a:link{
+    color: aqua;
+}
+a:visited{
+    color:aqua;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+
+.menu a{
+margin-left: 20px;
+}
+
+.item{
+ position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover img{
+    opacity:0.33;
+}
+ 
